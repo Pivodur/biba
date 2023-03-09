@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="../node_modules/rateyo/src/jquery.rateyo.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+</head>
+
+<body id="body">
+
+   <div class="main">
+      <header class="header">
+         <div class="header-top">
+            <div class="container">
+               <div class="header-top__inner">
+                  <nav class="header-top__menu">
+                     <ul class="header-top__menu-list">
+                        <button class="cross">
+                           <svg class="cross-icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)"
+                                 fill="#828282" />
+                              <rect x="0.831299" y="19.5566" width="27.3715" height="3.8"
+                                 transform="rotate(-45 0.831299 19.5566)" fill="#828282" />
+                           </svg>
+                        </button>
+                        <li class="header-top__menu-item">
+                           <a class="header-top__menu-link" href="#body">
+                              Главная
+                           </a>
+                        </li>
+                        <li class="header-top__menu-item">
+                           <a class="header-top__menu-link" href="#about">
+                              Обо мне
+                           </a>
+                        </li>
+                        <li class="header-top__menu-item">
+                           <a class="header-top__menu-link" href="#team">
+                              Компания
+                           </a>
+                        </li>
+                        <li class="header-top__menu-item">
+                           <a class="header-top__menu-link" href="#products">
+                              Продукт
+                           </a>
+                        </li>
+                        <li class="header-top__menu-item">
+                           <a class="header-top__menu-link" href="#contacts">
+                              Контакты
+                           </a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+
+         <div class="container">
+            <div class="header-content">
+               <div class="header-content__top">
+                  <h1 class="header-content__title">
+                     Bibarys
+                     Talgatov
+                  </h1>
+                  <div class="header-content__occupation">
+                     <p class="header-content__occupation-text">
+                        Продавец насвая
+                     </p>
+                     <p class="header-content__occupation-text">
+                        19 лет, Караганда
+                     </p>
+                  </div>
+                  <button class="burger">
+                     <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="33" height="3.83721" fill="black" />
+                        <rect y="7.67383" width="33" height="3.83721" fill="black" />
+                        <rect y="15.3496" width="33" height="3.83721" fill="black" />
+                     </svg>
+                  </button>
+               </div>
+               <div class="header-content__img-wrapper" style="background-image: url('images/author.jpg');">
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <section class="about" id="about">
+         <div class="container">
+            <div class="about__inner">
+               <h2 class="title about__title">
+                  Обо мне
+               </h2>
+               <div class="about__text">
+                  <p class="about__text-item">
+                     Привет! Меня зовут Бибарыс, но друзья зовут меня мамбет из Жеза. Я продавец насвая и предлагаю
+                     качественный продукт и быструю доставку.
+                  </p>
+                  <p class="about__text-item">
+                     Моя цель - создать доверительные отношения с клиентами и помочь им контролировать потребление
+                     никотина.
+                  </p>
+                  <p class="about__text-item">
+                     Если у вас есть вопросы или вы хотите приобрести насвай, свяжитесь со мной. Я всегда готов помочь!
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="team" id="team">
+         <div class="container">
+            <h2 class="team__title title">
+               Our Team
+            </h2>
+            <div class="team__items">
+               <div class="team__item">
+                  <div class="team__img-wrapper">
+                     <img class="team__img" src="images/team/1.jpg" alt="Биб">
+                  </div>
+                  <h6 class="team__name">Назар</h6>
+               </div>
+               <div class="team__item">
+                  <div class="team__img-wrapper">
+                     <img class="team__img" src="images/team/2.jpg" alt="Назар">
+                  </div>
+                  <h6 class="team__name">Бибарыс</h6>
+               </div>
+               <div class="team__item">
+                  <div class="team__img-wrapper">
+                     <img class="team__img" src="images/team/3.jpg" alt="Алексей">
+                  </div>
+                  <h6 class="team__name">Алексей</h6>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="products" id="products">
+         <div class="container">
+            <div class="products__inner">
+               <h2 class="title products__title">
+                  Products
+               </h2>
+               <div class="products__items">
+                  <div class="products__item">
+                     <a class="products__item-link" href="#">
+                        <div class="products__img-box">
+                           <img class="products__img" src="images/products/1.jpg" alt="насик">
+                        </div>
+                     </a>
+                     <p class="products__text" href="#">
+                        Наш главный продукт - насвай
+                     </p>
+                  </div>
+                  <div class="products__item">
+                     <a class="products__item-link" href="#">
+                        <div class="products__img-box">
+                           <img class="products__img" src="images/products/2.jpg" alt="насик">
+                        </div>
+                     </a>
+                     <p class="products__text" href="#">
+                        Насвай в шариках
+                     </p>
+                  </div>
+                  <div class="products__item">
+                     <a class="products__item-link" href="#">
+                        <div class="products__img-box">
+                           <img class="products__img" src="images/products/3.jpg" alt="Лох">
+                        </div>
+                     </a>
+                     <p class="products__text" href="#">
+                        Проиграть в КС
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer" id="contacts">
+         <div class="container">
+            <div class="footer__inner">
+               <h2 class="title footer__title">
+                  Контакты
+               </h2>
+               <div class="footer__text">
+                  Заинтересовались?
+               </div>
+               <a class="footer__link" href="#">
+                  Свяжись со мной
+               </a>
+               <ul class="footer__social">
+                  <li class="footer__social-item">
+                     <a class="footer__social-link" href="#">
+                        <img class="footer__social-img" src="images/social/vk.svg" alt="">
+                     </a>
+                  </li>
+                  <li class="footer__social-item">
+                     <a class="footer__social-link" href="#">
+                        <img class="footer__social-img" src="images/social/whatsapp.svg" alt="">
+                     </a>
+                  </li>
+                  <li class="footer__social-item">
+                     <a class="footer__social-link" href="#">
+                        <img class="footer__social-img" src="images/social/telegram.svg" alt="">
+                     </a>
+                  </li>
+               </ul>
+               <div class="footer__postscr">
+                  <p class="footer__postscr-text">
+                     Вы всегда можете навестить меня в моей комнате
+                  </p>
+                  <p class="footer__postscr-text">
+                     999
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
